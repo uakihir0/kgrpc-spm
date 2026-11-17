@@ -1,0 +1,8 @@
+framework module "kgrpc" {
+    umbrella header "kgrpc.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
